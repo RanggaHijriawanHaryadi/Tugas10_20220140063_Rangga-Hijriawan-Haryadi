@@ -1,0 +1,45 @@
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.header h3 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; /* Tambahkan padding untuk memberi ruang di dalam form */
+    border: 2px solid #ccc; /* Tambahkan border */
+    border-radius: 10px; /* Tambahkan border-radius untuk sudut melengkung */
+    background-color: #fff; /* Tambahkan background-color putih untuk form */
+}
+
+label {
+    width: 100%;
+    margin-bottom: 5px;
+    color: #000; /* Mengatur warna teks label menjadi hitam */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
